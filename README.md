@@ -1,13 +1,14 @@
 # GreenComputing
 
 Algorithmes de recherche :
-+ Recherche Itérative
-+ Recherche Récursive
-+ Recherche Dichotomique
++ Recherche Séquentielle Itérative
++ Recherche Séquentielle Récursive
++ Recherche Dichotomique Itérative
++ Recherche Dichotomique Récursive
 
 Différents Langages :
 + Scala
 + Java
 + Python
-+ C#
++ C
 + Ocaml?
