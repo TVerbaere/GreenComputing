@@ -1,10 +1,10 @@
 package recherches;
 
-public class Dichotomique {
+public class DichotomiqueRecursive {
 
 	private String[] dico;
 	
-	public Dichotomique(String[] array) {
+	public DichotomiqueRecursive(String[] array) {
 		dico = array;
 	}
 
@@ -16,7 +16,9 @@ public class Dichotomique {
 			return -1 ;
 		}
 		int m = (d + g) / 2 ;
-		if (val.compareTo (t[m]) <= 0) return recherche_rec (t, val, g, m) ;
+		if (val.compareTo (t[m]) <= 0)
+			return recherche_rec (t, val, g, m) ;
+		
 		return recherche_rec (t, val, m+1, d) ;
 	}
 

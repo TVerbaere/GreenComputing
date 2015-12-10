@@ -1,10 +1,11 @@
 package main;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-import recherches.Dichotomique;
-
+import recherches.DichotomiqueIterative;
+import recherches.DichotomiqueRecursive;
+import recherches.SequentielleIterative;
+import recherches.SequentielleRecursive;
 import data.Tableau;
 
 public class Main {
@@ -17,22 +18,29 @@ public class Main {
 		String str = sc.nextLine();
 		
 		System.out.println("Lancement de la recherche itérative");
-		//TODO
+		new SequentielleIterative(dico).lancer();
 		System.out.println("Fin de la recherche itérative");
 		
 		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche récursive...................");
 		str = sc.nextLine();
 		
 		System.out.println("Lancement de la recherche récursive");
-		//TODO
+		new SequentielleRecursive(dico).lancer();
 		System.out.println("Fin de la recherche récursive");
 		
 		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche dichotomique...................");
 		str = sc.nextLine();
 		
 		System.out.println("Lancement de la recherche dichotomique");
-		new Dichotomique(dico).lancer();
+		new DichotomiqueIterative(dico).lancer();
 		System.out.println("Fin de la recherche dichotomique");
+		
+		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche dichotomique récursive...................");
+		str = sc.nextLine();
+		
+		System.out.println("Lancement de la recherche dichotomique récursive");
+		new DichotomiqueRecursive(dico).lancer();
+		System.out.println("Fin de la recherche dichotomique récursive");
 	}
 
 }
