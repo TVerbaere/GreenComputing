@@ -12,7 +12,7 @@ public class Tableau {
 		String[] array = new String[5000];;
 		
 		try{
-			InputStream ips=new FileInputStream("dico.txt"); 
+			InputStream ips=new FileInputStream("../dico.txt"); 
 			InputStreamReader ipsr=new InputStreamReader(ips);
 			BufferedReader br=new BufferedReader(ipsr);
 			String ligne;
