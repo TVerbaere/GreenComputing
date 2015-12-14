@@ -2,7 +2,6 @@
 
 int recherche_sequentielle_iterative(char** tab, int taille, char* val) {
 	for (int i=0; i < taille; i++) {
-		//printf("%s",tab[i]);
 		if (strcmp(tab[i] , val) == 0) {
 			return i;
 		}

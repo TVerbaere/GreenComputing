@@ -7,7 +7,6 @@ char* tab[SIZE];
 void init_tableau(void)
    {
       FILE * fp;
-      char* line = NULL;
       size_t len = 0;
       ssize_t read;
 
@@ -19,8 +18,7 @@ void init_tableau(void)
         exit(EXIT_FAILURE);
 
 
-      while ((read = getline(&line, &len, fp)) != -1) {
-	tab[i] = line;
+      while ((read = getline(&tab[i], &len, fp)) != -1) {
         i++;
       }
 
@@ -33,11 +31,10 @@ int main(){
 
 	init_tableau();
 
-printf("%s\n",tab[0]);
-printf("%s\n",tab[1]);
-
-	//int res = recherche_sequentielle_iterative(tab,SIZE,"admonestassions");
-	//printf("%d",res);
+	int res = recherche_sequentielle_iterative(tab,SIZE,"admonestassions\n");
+	printf("admonestassions : %d\n",res);
+	res = recherche_sequentielle_iterative(tab,SIZE,"b\n");
+	printf("b : %d\n",res);
 
 	return 1;
 
