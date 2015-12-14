@@ -1,68 +1,42 @@
 #include "recherche.h"
 
-int taille_dico(void)
-  {
-      FILE * fp;
-      char* line = NULL;
-      size_t len = 0;
-      ssize_t read;
+#define SIZE 5000 // Nombre de mots, a changer en fonction de la taille du dico.txt
 
-      int i = 0;
+char* tab[SIZE];
 
-      fp = fopen("../dico.txt", "r");
-
-
-      if (fp == NULL)
-        exit(EXIT_FAILURE);
-
-      while ((read = getline(&line, &len, fp)) != -1) {
-        i++;
-      }
-
-      fclose(fp);
-      if (line)
-        free(line);
-      
-      return i;
-
-  }
-
-char** creer_tableau(void)
+void init_tableau(void)
    {
       FILE * fp;
       char* line = NULL;
       size_t len = 0;
       ssize_t read;
 
-      int taille = taille_dico();
       int i = 0;
 
       fp = fopen("../dico.txt", "r");
-
-      char* tab[taille]
 
       if (fp == NULL)
         exit(EXIT_FAILURE);
 
 
       while ((read = getline(&line, &len, fp)) != -1) {
-        printf("%s\n",line);
+	tab[i] = line;
         i++;
       }
 
-      return tab;
+ 	fclose(fp);
+
    }
 
 
 int main(){
 
-	//char** tableau = creer_tableau();
-	//printf("%s",*tableau);
+	init_tableau();
 
-	//int taille = taille_dico();
+printf("%s\n",tab[0]);
+printf("%s\n",tab[1]);
 
-	//int res = recherche_sequentielle_iterative(tableau, taille, "admonestassions");
-
+	//int res = recherche_sequentielle_iterative(tab,SIZE,"admonestassions");
 	//printf("%d",res);
 
 	return 1;
