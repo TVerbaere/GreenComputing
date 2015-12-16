@@ -17,23 +17,23 @@ public class Main {
 		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche itérative...................");
 		String str = sc.nextLine();
 		
-		System.out.println("Lancement de la recherche itérative");
+		System.out.println("Lancement de la recherche séquentielle itérative");
 		new SequentielleIterative(dico).lancer();
-		System.out.println("Fin de la recherche itérative");
+		System.out.println("Fin de la recherche séquentielle itérative");
 		
-		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche récursive...................");
+		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche séquentielle récursive...................");
 		str = sc.nextLine();
 		
-		System.out.println("Lancement de la recherche récursive");
+		System.out.println("Lancement de la recherche séquentielle récursive");
 		new SequentielleRecursive(dico).lancer();
-		System.out.println("Fin de la recherche récursive");
+		System.out.println("Fin de la recherche séquentielle récursive");
 		
 		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche dichotomique...................");
 		str = sc.nextLine();
 		
-		System.out.println("Lancement de la recherche dichotomique");
+		System.out.println("Lancement de la recherche dichotomique itérative");
 		new DichotomiqueIterative(dico).lancer();
-		System.out.println("Fin de la recherche dichotomique");
+		System.out.println("Fin de la recherche dichotomique itérative");
 		
 		System.out.println("Appuyer sur \"Entrée\" pour lancer la recherche dichotomique récursive...................");
 		str = sc.nextLine();
