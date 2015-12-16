@@ -66,7 +66,7 @@ def sequentielle_recursive(element, liste_triee, i):
 def sequentielle_rec(element, liste_triee):
     return sequentielle_recursive(element, liste_triee, 0)
 
-dico = lit_fichier("dico.txt")
+dico = lit_fichier("../dico.txt")
 
 print("recherche dichotomique 'admonestassions' version itérative")
 test(dichotomique_iterative,'admonestassions', dico)
