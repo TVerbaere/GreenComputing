@@ -31,10 +31,57 @@ int main(){
 
 	init_tableau();
 
+	printf("Appuyer sur \"Entrée\" pour lancer la recherche séquentielle itérative...................\n");
+	getc(stdin);
+
+	printf("Lancement de la recherche séquentielle itérative\n");
+
 	int res = recherche_sequentielle_iterative(tab,SIZE,"admonestassions\n");
 	printf("admonestassions : %d\n",res);
 	res = recherche_sequentielle_iterative(tab,SIZE,"b\n");
 	printf("b : %d\n",res);
+
+	printf("Fin de la recherche séquentielle itérative\n");
+
+	// --------------------------------------------------
+	printf("Appuyer sur \"Entrée\" pour lancer la recherche séquentielle récursive ...................\n");
+	getc(stdin);
+
+	printf("Lancement de la recherche séquentielle récursive\n");
+
+	res = recherche_sequentielle_recursive(tab,SIZE,"admonestassions\n");
+	printf("admonestassions : %d\n",res);
+	res = recherche_sequentielle_recursive(tab,SIZE,"b\n");
+	printf("b : %d\n",res);
+
+	printf("Fin de la recherche séquentielle récursive\n");
+
+	// --------------------------------------------------
+	printf("Appuyer sur \"Entrée\" pour lancer la recherche dichotomique itérative...................\n");
+	getc(stdin);
+
+	printf("Lancement de la recherche dichotomique itérative\n");
+
+	res = recherche_dichotomique_iterative(tab,SIZE,"admonestassions\n");
+	printf("admonestassions : %d\n",res);
+	res = recherche_dichotomique_iterative(tab,SIZE,"b\n");
+	printf("b : %d\n",res);
+
+	printf("Fin de la recherche dichotomique itérative\n");
+
+	// --------------------------------------------------
+	printf("Appuyer sur \"Entrée\" pour lancer la recherche dichotomique récursive...................\n");
+	getc(stdin);
+
+	printf("Lancement de la recherche dichotomique récursive\n");
+
+	res = recherche_dichotomique_recursive(tab,SIZE,"admonestassions\n");
+	printf("admonestassions : %d\n",res);
+	res = recherche_dichotomique_recursive(tab,SIZE,"b\n");
+	printf("b : %d\n",res);
+
+	printf("Fin de la recherche dichotomique récursive\n");
+
 
 	return 1;
 
