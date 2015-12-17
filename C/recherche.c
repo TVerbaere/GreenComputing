@@ -51,20 +51,20 @@ int recherche_dichotomique_iterative(char** tab, int taille, char* val) {
 
 int sous_recherche_dichotomique_recursive(char** tab, int taille, char* val, int g, int d) {
 
-		if (g >= d)
-		{
-			if (strcmp(tab[g],val) == 0) return g ;
-			if (g > 0 && strcmp(tab[g-1],val) == 0) return g - 1 ;
-			return -1 ;
-		}
-
-		int m = (d + g) / 2 ;
-
-		if (strcmp(tab[m],val) >= 0)
-			return sous_recherche_dichotomique_recursive(tab, taille, val, g, m) ;
-		
-		return sous_recherche_dichotomique_recursive(tab, taille, val, m+1, d) ;
+	if (g >= d)
+	{
+		if (strcmp(tab[g],val) == 0) return g ;
+		if (g > 0 && strcmp(tab[g-1],val) == 0) return g - 1 ;
+		return -1 ;
 	}
+
+	int m = (d + g) / 2 ;
+
+	if (strcmp(tab[m],val) >= 0)
+		return sous_recherche_dichotomique_recursive(tab, taille, val, g, m) ;
+		
+	return sous_recherche_dichotomique_recursive(tab, taille, val, m+1, d) ;
+}
 
 int recherche_dichotomique_recursive(char** tab, int taille, char* val) {
 	return sous_recherche_dichotomique_recursive(tab, taille, val, 0, taille-1);
