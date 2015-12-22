@@ -31,7 +31,9 @@ int recherche_dichotomique_iterative(char** tab, int taille, char* val) {
 	int milieu = -1;
 		
 	while ((trouve == false) && debut <= fin) {
+
 		milieu = (debut+fin)/2;
+
 		if (strcmp(tab[milieu],val) == 0) {
 			trouve = true;
 		}
