@@ -65,9 +65,9 @@ int main(){
 
 	printf("cheiks : %d\n",res);
 
-	res = recherche_sequentielle_iterative(tab,SIZE,"dème\n");
+	res = recherche_sequentielle_iterative(tab,SIZE,"deme\n");
 
-	printf("dème : %d\n",res);
+	printf("deme : %d\n",res);
 
 	res = recherche_sequentielle_iterative(tab,SIZE,"correspondance\n");
 
@@ -85,9 +85,9 @@ int main(){
 
 	printf("contrevins : %d\n",res);
 
-	res = recherche_sequentielle_iterative(tab,SIZE,"démentielle\n");
+	res = recherche_sequentielle_iterative(tab,SIZE,"dementielle\n");
 
-	printf("démentielle : %d\n",res);
+	printf("dementielle : %d\n",res);
 
 	res = recherche_sequentielle_iterative(tab,SIZE,"bb\n");
 
@@ -156,9 +156,9 @@ int main(){
 
 	printf("cheiks : %d\n",res);
 
-	res = recherche_sequentielle_recursive(tab,SIZE,"dème\n");
+	res = recherche_sequentielle_recursive(tab,SIZE,"deme\n");
 
-	printf("dème : %d\n",res);
+	printf("deme : %d\n",res);
 
 	res = recherche_sequentielle_recursive(tab,SIZE,"correspondance\n");
 
@@ -176,9 +176,9 @@ int main(){
 
 	printf("contrevins : %d\n",res);
 
-	res = recherche_sequentielle_recursive(tab,SIZE,"démentielle\n");
+	res = recherche_sequentielle_recursive(tab,SIZE,"dementielle\n");
 
-	printf("démentielle : %d\n",res);
+	printf("dementielle : %d\n",res);
 
 	res = recherche_sequentielle_recursive(tab,SIZE,"bb\n");
 
@@ -247,9 +247,9 @@ int main(){
 
 	printf("cheiks : %d\n",res);
 
-	res = recherche_dichotomique_iterative(tab,SIZE,"dème\n");
+	res = recherche_dichotomique_iterative(tab,SIZE,"deme\n");
 
-	printf("dème : %d\n",res);
+	printf("deme : %d\n",res);
 
 	res = recherche_dichotomique_iterative(tab,SIZE,"correspondance\n");
 
@@ -267,9 +267,9 @@ int main(){
 
 	printf("contrevins : %d\n",res);
 
-	res = recherche_dichotomique_iterative(tab,SIZE,"démentielle\n");
+	res = recherche_dichotomique_iterative(tab,SIZE,"dementielle\n");
 
-	printf("démentielle : %d\n",res);
+	printf("dementielle : %d\n",res);
 
 	res = recherche_dichotomique_iterative(tab,SIZE,"bb\n");
 
@@ -337,9 +337,9 @@ int main(){
 
 	printf("cheiks : %d\n",res);
 
-	res = recherche_dichotomique_recursive(tab,SIZE,"dème\n");
+	res = recherche_dichotomique_recursive(tab,SIZE,"deme\n");
 
-	printf("dème : %d\n",res);
+	printf("deme : %d\n",res);
 
 	res = recherche_dichotomique_recursive(tab,SIZE,"correspondance\n");
 
@@ -357,9 +357,9 @@ int main(){
 
 	printf("contrevins : %d\n",res);
 
-	res = recherche_dichotomique_recursive(tab,SIZE,"démentielle\n");
+	res = recherche_dichotomique_recursive(tab,SIZE,"dementielle\n");
 
-	printf("démentielle : %d\n",res);
+	printf("dementielle : %d\n",res);
 
 	res = recherche_dichotomique_recursive(tab,SIZE,"bb\n");
 
