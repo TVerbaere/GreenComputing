@@ -1,0 +1,40 @@
+Relevés réalisés avec Powerapi.
+
+Fréquence : 1ms.
+Algorithme : Recherche Séquentielle Récursive.
+Langage : C.
+
+Relevé 1 :
+
+muid=29731590-86de-4756-a62f-a35adbfd36f6;timestamp=1451379153808;targets=7048;devices=cpu;power=22.55985267034991 mW
+muid=29731590-86de-4756-a62f-a35adbfd36f6;timestamp=1451379153818;targets=7048;devices=cpu;power=6125.0 mW
+muid=29731590-86de-4756-a62f-a35adbfd36f6;timestamp=1451379153827;targets=7048;devices=cpu;power=8166.666666666666 mW
+muid=29731590-86de-4756-a62f-a35adbfd36f6;timestamp=1451379153837;targets=7048;devices=cpu;power=4083.333333333333 mW
+
+Relevé 2 :
+
+muid=0feda6cf-7eb2-4a9f-b67c-3d52b1a87532;timestamp=1451379554280;targets=7212;devices=cpu;power=38.95071542130366 mW
+muid=0feda6cf-7eb2-4a9f-b67c-3d52b1a87532;timestamp=1451379554290;targets=7212;devices=cpu;power=6125.0 mW
+muid=0feda6cf-7eb2-4a9f-b67c-3d52b1a87532;timestamp=1451379554300;targets=7212;devices=cpu;power=4083.333333333333 mW
+muid=0feda6cf-7eb2-4a9f-b67c-3d52b1a87532;timestamp=1451379554310;targets=7212;devices=cpu;power=8166.666666666666 mW
+
+Relevé 3 :
+
+muid=5bca4d84-142b-4c80-8590-bdea5063eae4;timestamp=1451379259888;targets=7294;devices=cpu;power=18.188567186340016 mW
+muid=5bca4d84-142b-4c80-8590-bdea5063eae4;timestamp=1451379259899;targets=7294;devices=cpu;power=6125.0 mW
+muid=5bca4d84-142b-4c80-8590-bdea5063eae4;timestamp=1451379259909;targets=7294;devices=cpu;power=4083.333333333333 mW
+muid=5bca4d84-142b-4c80-8590-bdea5063eae4;timestamp=1451379259919;targets=7294;devices=cpu;power=24500.0 mW
+
+Relevé 4 :
+
+muid=0af93877-e843-4790-ba76-79b462f0cab5;timestamp=1451379323077;targets=7379;devices=cpu;power=91.76029962546816 mW
+muid=0af93877-e843-4790-ba76-79b462f0cab5;timestamp=1451379323088;targets=7379;devices=cpu;power=4900.0 mW
+muid=0af93877-e843-4790-ba76-79b462f0cab5;timestamp=1451379323097;targets=7379;devices=cpu;power=8166.666666666666 mW
+muid=0af93877-e843-4790-ba76-79b462f0cab5;timestamp=1451379323107;targets=7379;devices=cpu;power=8166.666666666666 mW
+
+Relevé 5 :
+
+muid=7efcf6c3-5b38-46a1-8f8c-8db64306f330;timestamp=1451379477582;targets=7616;devices=cpu;power=61.40350877192982 mW
+muid=7efcf6c3-5b38-46a1-8f8c-8db64306f330;timestamp=1451379477593;targets=7616;devices=cpu;power=4900.0 mW
+muid=7efcf6c3-5b38-46a1-8f8c-8db64306f330;timestamp=1451379477603;targets=7616;devices=cpu;power=6125.0 mW
+muid=7efcf6c3-5b38-46a1-8f8c-8db64306f330;timestamp=1451379477612;targets=7616;devices=cpu;power=8166.666666666666 mW

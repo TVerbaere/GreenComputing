@@ -9,7 +9,7 @@ public class Tableau {
 	
 	
 	public static String[] getArray() {
-		String[] array = new String[5000];;
+		String[] array = new String[90500];;
 		
 		try{
 			InputStream ips=new FileInputStream("../dico.txt"); 

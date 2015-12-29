@@ -1,0 +1,37 @@
+Relevés réalisés avec Powerapi.
+
+Fréquence : 1ms.
+Algorithme : Recherche Séquentielle Itérative.
+Langage : C.
+
+Relevé 1 :
+
+muid=0444b914-8ac1-4abf-8f53-eeff79ba85ee;timestamp=1451378086065;targets=5794;devices=cpu;power=159.0909090909091 mW
+muid=0444b914-8ac1-4abf-8f53-eeff79ba85ee;timestamp=1451378086081;targets=5794;devices=cpu;power=4083.333333333333 mW
+muid=0444b914-8ac1-4abf-8f53-eeff79ba85ee;timestamp=1451378086085;targets=5794;devices=cpu;power=0.0 mW
+muid=0444b914-8ac1-4abf-8f53-eeff79ba85ee;timestamp=1451378086095;targets=5794;devices=cpu;power=4900.0 mW
+
+Relevé 2 :
+
+muid=677d7bb6-9e9c-4496-84fa-faca66eef491;timestamp=1451378286321;targets=6083;devices=cpu;power=73.13432835820896 mW
+muid=677d7bb6-9e9c-4496-84fa-faca66eef491;timestamp=1451378286340;targets=6083;devices=cpu;power=6125.0 mW
+muid=677d7bb6-9e9c-4496-84fa-faca66eef491;timestamp=1451378286351;targets=6083;devices=cpu;power=8166.666666666666 mW
+
+Relevé 3 :
+
+muid=bdc8898a-ea29-4070-8b21-00030a031a33;timestamp=1451378410525;targets=6276;devices=cpu;power=102.94117647058823 mW
+muid=bdc8898a-ea29-4070-8b21-00030a031a33;timestamp=1451378410535;targets=6276;devices=cpu;power=6125.0 mW
+muid=bdc8898a-ea29-4070-8b21-00030a031a33;timestamp=1451378410545;targets=6276;devices=cpu;power=8166.666666666666 mW
+
+Relevé 4 :
+
+muid=2558d8d4-d911-47b8-ba88-dc90996cf367;timestamp=1451378821541;targets=6794;devices=cpu;power=70.60518731988472 mW
+muid=2558d8d4-d911-47b8-ba88-dc90996cf367;timestamp=1451378821552;targets=6794;devices=cpu;power=6125.0 mW
+muid=2558d8d4-d911-47b8-ba88-dc90996cf367;timestamp=1451378821561;targets=6794;devices=cpu;power=0.0 mW
+muid=2558d8d4-d911-47b8-ba88-dc90996cf367;timestamp=1451378821571;targets=6794;devices=cpu;power=6125.0 mW
+
+Relevé 5 :
+
+muid=b8ca3ec0-7443-42c9-ac55-d3cb5890e7fe;timestamp=1451378951476;targets=6962;devices=cpu;power=32.279314888010546 mW
+muid=b8ca3ec0-7443-42c9-ac55-d3cb5890e7fe;timestamp=1451378951487;targets=6962;devices=cpu;power=6125.0 mW
+muid=b8ca3ec0-7443-42c9-ac55-d3cb5890e7fe;timestamp=1451378951497;targets=6962;devices=cpu;power=8166.666666666666 mW

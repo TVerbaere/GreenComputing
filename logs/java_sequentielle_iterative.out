@@ -1,0 +1,35 @@
+Relevés réalisés avec Powerapi.
+
+Fréquence : 1ms.
+Algorithme : Recherche Séquentielle Itérative.
+Langage : JAVA.
+
+Relevé 1 :
+
+muid=bcfa41cc-1112-4a19-a456-b2d430e0133a;timestamp=1451383657184;targets=10079;devices=cpu;power=23.740310077519382 mW
+muid=bcfa41cc-1112-4a19-a456-b2d430e0133a;timestamp=1451383657194;targets=10079;devices=cpu;power=12250.0 mW
+muid=bcfa41cc-1112-4a19-a456-b2d430e0133a;timestamp=1451383657203;targets=10079;devices=cpu;power=8166.666666666666 mW
+
+Relevé 2 :
+
+muid=cee85564-c1f8-4d82-9c11-66caa08028da;timestamp=1451384076044;targets=10380;devices=cpu;power=70.60518731988472 mW
+muid=cee85564-c1f8-4d82-9c11-66caa08028da;timestamp=1451384076052;targets=10380;devices=cpu;power=24500.0 mW
+
+Relevé 3 :
+
+muid=b481bbc4-3890-4c83-b65f-67f5b512d964;timestamp=1451384208114;targets=10486;devices=cpu;power=53.4156976744186 mW
+muid=b481bbc4-3890-4c83-b65f-67f5b512d964;timestamp=1451384208124;targets=10486;devices=cpu;power=4900.0 mW
+muid=b481bbc4-3890-4c83-b65f-67f5b512d964;timestamp=1451384208133;targets=10486;devices=cpu;power=8166.666666666666 mW
+
+Relevé 4 :
+
+muid=9233aad7-f6d8-4055-b0f9-0ba89ea86b2b;timestamp=1451384289068;targets=10589;devices=cpu;power=49.29577464788733 mW
+muid=9233aad7-f6d8-4055-b0f9-0ba89ea86b2b;timestamp=1451384289077;targets=10589;devices=cpu;power=4900.0 mW
+muid=9233aad7-f6d8-4055-b0f9-0ba89ea86b2b;timestamp=1451384289082;targets=10589;devices=cpu;power=4900.0 mW
+muid=9233aad7-f6d8-4055-b0f9-0ba89ea86b2b;timestamp=1451384289083;targets=10589;devices=cpu;power=8884.6153846153848 mW
+
+Relevé 5 :
+
+muid=e0a480d1-222d-4e9d-ae7d-b1c438f6b0b5;timestamp=1451384433482;targets=10689;devices=cpu;power=36.13569321533923 mW
+muid=e0a480d1-222d-4e9d-ae7d-b1c438f6b0b5;timestamp=1451384433491;targets=10689;devices=cpu;power=12250.0 mW
+muid=e0a480d1-222d-4e9d-ae7d-b1c438f6b0b5;timestamp=1451384433501;targets=10689;devices=cpu;power=6125.0 mW

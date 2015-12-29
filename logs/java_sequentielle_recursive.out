@@ -1,0 +1,34 @@
+Relevés réalisés avec Powerapi.
+
+Fréquence : 1ms.
+Algorithme : Recherche Séquentielle Récursive.
+Langage : JAVA.
+
+Attention, JAVA n'appréciant pas de la même façon la récursivité (StackOverFlow), le dico a été considérablement réduit (6% de l'original).
+
+Relevé 1 :
+
+muid=eedd6297-b578-4b22-ac56-2a734f82a13f;timestamp=1451385087868;targets=11030;devices=cpu;power=131.01604278074865 mW
+muid=eedd6297-b578-4b22-ac56-2a734f82a13f;timestamp=1451385087876;targets=11030;devices=cpu;power=24500.0 mW
+
+Relevé 2 :
+
+muid=f26a66d4-2bdc-4b04-850c-6594b9ac15ee;timestamp=1451385472638;targets=11337;devices=cpu;power=89.0909090909091 mW
+muid=f26a66d4-2bdc-4b04-850c-6594b9ac15ee;timestamp=1451385472648;targets=11337;devices=cpu;power=14700.0 mW
+
+Relevé 3 :
+
+muid=fc5119c2-dc6d-4c10-8812-39b6178d1d3e;timestamp=1451385671518;targets=11540;devices=cpu;power=232.59493670886079 mW
+muid=fc5119c2-dc6d-4c10-8812-39b6178d1d3e;timestamp=1451385671528;targets=11540;devices=cpu;power=4900.0 mW
+
+Relevé 4 :
+
+muid=39f71e3f-4117-4641-b319-749740366adc;timestamp=1451385898093;targets=11659;devices=cpu;power=335.6164383561644 mW
+muid=39f71e3f-4117-4641-b319-749740366adc;timestamp=1451385898102;targets=11659;devices=cpu;power=16333.333333333332 mW
+
+Relevé 5 :
+
+muid=4269e697-4e28-40f6-b98f-9c573e7ac7fb;timestamp=1451385982308;targets=11755;devices=cpu;power=375.0 mW
+muid=4269e697-4e28-40f6-b98f-9c573e7ac7fb;timestamp=1451385982313;targets=11755;devices=cpu;power=8166.666666666666 mW
+muid=4269e697-4e28-40f6-b98f-9c573e7ac7fb;timestamp=1451385982323;targets=11755;devices=cpu;power=8166.666666666666 mW
+
