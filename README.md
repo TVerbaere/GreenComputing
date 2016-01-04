@@ -7,8 +7,8 @@ Algorithmes de recherche :
 + Recherche Dichotomique Récursive
 
 Différents Langages :
-+ Scala (TODO)
++ C++ (en cours)
 + Java (OK)
-+ Python(revoir main)
++ Python(OK)
 + C (OK)
 + Ocaml (OK mais attention, l'initialisation du dico est plutôt longue!)
