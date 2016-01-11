@@ -7,7 +7,7 @@ Algorithmes de recherche :
 + Recherche Dichotomique Récursive
 
 Différents Langages :
-+ C++ (en cours)
++ C++ (OK)
 + Java (OK)
 + Python(OK)
 + C (OK)
