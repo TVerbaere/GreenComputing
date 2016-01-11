@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstdio>
+#include <fstream>
+
 using namespace std;
 
 void resultat(int);
@@ -12,8 +14,30 @@ int rechercheSeqRec(string [], string, int);
 
 int main()
 {
-    string tab[3] = {"a", "admonestassions", "b"};
+    string tab[90500];
+    int indice = 0;
+    ifstream fichier("../dico.txt", ios::in);
+    if(fichier)
+    {
+        string ligne;
+        while(getline(fichier, ligne))
+        {
+                tab[indice]=ligne;
+                //cout << tab[indice] << endl;
+                indice++;
+        }
+        fichier.close();
+    }
+    /*else
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+        return 0;*/
 
+    /*for (int i=0; i<90500; i++){
+		cout << tab[i] << endl;
+    }*/
+
+    //cout << tab[90499] << endl;
+    //cout << tab[5000] << endl;
     cout << "Recherche dichotomique version iterative" << endl;
     cout << "Appuyez sur ENTREE pour lancer l'algorithme..." << endl;
     std::getchar();
@@ -148,7 +172,7 @@ int main()
     cout << "'agglutinai'" << endl;
     resultat(rechercheSeqIterative(tab, "agglutinai"));
 
-/*
+
     cout << "Recherche sequentielle version recursive" << endl;
     cout << "Appuyez sur ENTREE pour lancer l'algorithme..." << endl;
     std::getchar();
@@ -192,7 +216,6 @@ int main()
     resultat(rechercheSeqRecursive(tab, "acquerront"));
     cout << "'agglutinai'" << endl;
     resultat(rechercheSeqRecursive(tab, "agglutinai"));
-*/
 
     cout << "Appuyez sur ENTREE pour fermer..." << endl;
     std::getchar();
@@ -213,7 +236,7 @@ int rechercheDichoIterative(string tab[], string val){
 
   trouve = false;
   id = 0;
-  ifin = 3;
+  ifin = 90500;
 
   while(!trouve && ((ifin - id) > 1)){
     im = (id + ifin)/2;
@@ -235,7 +258,7 @@ int rechercheDichoRec(string tab[], string val, int indice){
 }
 
 int rechercheSeqIterative(string tab[], string val){
-    for(int i(0); i<3; ++i)
+    for(int i(0); i<90500; ++i)
     {
         if(tab[i] == val) return(i);
     }
@@ -247,9 +270,10 @@ int rechercheSeqRecursive(string tab[], string val){
 }
 
 int rechercheSeqRec(string tab[], string val, int indice){
-    if(indice == 3) return(-1);
+    if(indice == 5430) return(-1);
     if(tab[indice] == val) return(indice);
     else{
-        return rechercheSeqRec(tab, val, indice++);
+        indice++;
+        return rechercheSeqRec(tab, val, indice);
     }
 }

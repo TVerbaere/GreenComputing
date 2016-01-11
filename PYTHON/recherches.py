@@ -61,14 +61,15 @@ def sequentielle_iterative(element, liste_triee):
 # Recherche séquentielle version recursive
     
 def sequentielle_rec(element, liste_triee):
-    def sequentielle_recursive(element, liste_triee, i):
-        if i == 90500:
-            return None
-        elif element == liste_triee[i]:
-            return (i)
-        else:
-            return sequentielle_recursive(element, liste_triee, i)
     return sequentielle_recursive(element, liste_triee, 0)
+
+def sequentielle_recursive(element, liste_triee, i):
+    if i == 905:
+        return None
+    elif element == liste_triee[i]:
+        return (i)
+    else:
+        return sequentielle_recursive(element, liste_triee, i+1)
 
 
 dico = lit_fichier("../dico.txt")
@@ -209,44 +210,44 @@ test(sequentielle_iterative,'agglutinai', dico)
 print("Recherche séquentielle version récursive")
 input("Appuyez sur ENTREE pour lancer l'algorithme...")
 print("'admonestassions'")
-test(sequentielle_iterative,'admonestassions', dico)
+test(sequentielle_rec,'admonestassions', dico)
 print("'b'")
-test(sequentielle_iterative,'b', dico)
+test(sequentielle_rec,'b', dico)
 print("'attablais'")
-test(sequentielle_iterative,'attablais', dico)
+test(sequentielle_rec,'attablais', dico)
 print("'chiqueur'")
-test(sequentielle_iterative,'chiqueur', dico)
+test(sequentielle_rec,'chiqueur', dico)
 print("'bleutas'")
-test(sequentielle_iterative,'bleutas', dico)
+test(sequentielle_rec,'bleutas', dico)
 print("'tableau'")
-test(sequentielle_iterative,'tableau', dico)
+test(sequentielle_rec,'tableau', dico)
 print("'cheiks'")
-test(sequentielle_iterative,'cheiks', dico)
+test(sequentielle_rec,'cheiks', dico)
 print("'deme'")
-test(sequentielle_iterative,'deme', dico)
+test(sequentielle_rec,'deme', dico)
 print("'correspondance'")
-test(sequentielle_iterative,'correspondance', dico)
+test(sequentielle_rec,'correspondance', dico)
 print("'feu'")
-test(sequentielle_iterative,'feu', dico)
+test(sequentielle_rec,'feu', dico)
 print("'crapulas'")
-test(sequentielle_iterative,'crapulas', dico)
+test(sequentielle_rec,'crapulas', dico)
 print("'contrevins'")
-test(sequentielle_iterative,'contrevins', dico)
+test(sequentielle_rec,'contrevins', dico)
 print("'dementielle'")
-test(sequentielle_iterative,'dementielle', dico)
+test(sequentielle_rec,'dementielle', dico)
 print("'bb'")
-test(sequentielle_iterative,'bb', dico)
+test(sequentielle_rec,'bb', dico)
 print("'contreront'")
-test(sequentielle_iterative,'contreront', dico)
+test(sequentielle_rec,'contreront', dico)
 print("'climatisant'")
-test(sequentielle_iterative,'climatisant', dico)
+test(sequentielle_rec,'climatisant', dico)
 print("'cc'")
-test(sequentielle_iterative,'cc', dico)
+test(sequentielle_rec,'cc', dico)
 print("'zoo'")
-test(sequentielle_iterative,'zoo', dico)
+test(sequentielle_rec,'zoo', dico)
 print("'acquerront'")
-test(sequentielle_iterative,'acquerront', dico)
+test(sequentielle_rec,'acquerront', dico)
 print("'agglutinai'")
-test(sequentielle_iterative,'agglutinai', dico)
+test(sequentielle_rec,'agglutinai', dico)
 
 input("Appuyez sur ENTREE pour fermer la fenetre...")
